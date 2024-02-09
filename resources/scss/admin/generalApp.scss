@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.debug{
+    background-color: rgba(255, 0, 0, 0.226);
+  }
+
+.debug2{
+  background-color: rgba(9, 255, 0, 0.226);
+}
+
+.form-control:focus {
+    border-color: lighten($low-black, 80%);
+    box-shadow: 2px 2px 0px 1px lighten($brand-main, 20%)
+}
+.mvm-button{
+  background-color: $brand-blue;
+  color: white;
+  border: none;
+  transition: .4s;
+  &:hover{
+    background-color: $brand-main;
+    color: white;
+    border: none;
+  }
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Quicksand', sans-serif !important;
+    // font-family: 'Work Sans', sans-serif !important;
+}
+
+#wrapper-auth-user{
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.pexels.com/photos/418831/pexels-photo-418831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card-dashboard{
+    margin: auto;
+    width: 95vw;
+    height: 95vh;
+    box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: .4);
+    background-color: #fff;
+}
+
+.my_overflow{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.my_overflow_auto{
+    overflow: auto;
+}
+
+.my_aside{
+  height: calc(100% - 50px);
+}
+
+.no_wrap{
+    flex-wrap: nowrap;
+}
+
+
+.my_form_check{
+
+}
+
+.my_btn_grp{
+    position: relative;
+    // display: flex;
+    vertical-align: middle;
+    // width: 100%;
+}
+
+.my_width{
+    // width: 500px;
+}
+
+
+header{
+
+  img{
+    height: 50px;
+  }
+
+  nav{
+    button.btn{
+      background-color: $brand-blue;
+      color: white;
+      transition: all .4s;
+      &:hover{
+        background-color:$brand-main;
+      }
+    }
+  }
+}
+
+td{
+  .btn{
+    margin-bottom: .2rem;
+  }
+  i{
+    min-width: 1.3rem;
+  }
+}
+
+.extra-services{
+  span.badge{
+    background-color: $brand-blue;
+  }
+}
+
